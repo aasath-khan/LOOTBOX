@@ -1,0 +1,63 @@
+.game-card {
+  display: block;
+  overflow: hidden;
+  border: 1px solid #2d3748;
+  border-radius: 0.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.game-card:hover {
+  border-color: #63b3ed;
+}
+
+.game-card img {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.game-card-content {
+  padding: 1rem;
+  background-color: #2d3748;
+}
+
+.game-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #e2e8f0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.game-genres .genre-chip {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background-color: #4a5568;
+  color: #e2e8f0;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.game-meta {
+  font-size: 0.875rem;
+  color: #a0aec0;
+  margin-top: 0.25rem;
+}
+
+.like-button {
+  padding: 0.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.like-button:hover {
+  color: #63b3ed;
+}
+
+.liked {
+  color: #63b3ed;
+}
