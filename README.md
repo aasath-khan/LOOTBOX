@@ -1,12 +1,26 @@
-# React + Vite
+LOOTBOX 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  Lootbox is a personalized game review platform built with React. It allows users to browse, explore, and favorite video games, offering detailed information about each title. The platform focuses on user engagement through interactive game cards, local favorites, and a visually rich interface.
 
-Currently, two official plugins are available:
+FEATURES
+  Game browsing with responsive and interactive game cards
+  
+  Detailed view for each game, including genres, ratings, and release date
+  
+  Like/favorite system using localStorage to remember preferences
+  
+  Smart fallback system for missing or broken game posters
+  
+  Smooth navigation between views with React Router
+  
+  Clean and modern UI built for scalability and responsiveness
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+TECH STACK 
+  React
+  React Router DOM
+  RAWG Video Games Database API (or mock data)
+  Tailwind CSS / Custom CSS
+  MYSql
+  Node js
