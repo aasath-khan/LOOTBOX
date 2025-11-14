@@ -62,26 +62,6 @@ cd client
 npm run dev
 ```
 
-6. **Access the app**
-- Frontend: http://localhost:5173
-- Backend: http://localhost:3001
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **React** 19 - UI library
-- **React Router DOM** - Routing
-- **Tailwind CSS** - Styling
-- **DOMPurify** - XSS protection
-- **Vite** - Build tool
-
-### Backend
-- **Node.js** - Runtime
-- **Express** - Web framework
-- **MySQL** - Database
-- **JWT** - Authentication
-- **bcrypt** - Password hashing
-- **CORS** - Cross-origin resource sharing
 
 ### API
 - **RAWG API** - Game data source
@@ -125,18 +105,6 @@ The UI is inspired by Letterboxd with:
 - Responsive grid system
 - Custom scrollbar styling
 
-## 📝 Environment Variables
-
-### Server (.env)
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=lootbox_db
-JWT_SECRET=your_jwt_secret
-PORT=3001
-RAWG_API_KEY=your_rawg_api_key
-```
 
 ### Client
 - `VITE_API_BASE_URL` - Backend API URL (defaults to http://localhost:3001)
@@ -152,4 +120,4 @@ MIT
 ## 🙏 Acknowledgments
 
 - [RAWG API](https://rawg.io/apidocs) for game data
-- [Letterboxd](https://letterboxd.com) for design inspiration
+
